@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Dancing+Script:wght@600&family=Montserrat:wght@100&family=Neonderthaw&family=Noto+Sans+JP:wght@900&family=Roboto+Mono:wght@100&family=Rubik+Beastly&family=Sedgwick+Ave&family=Source+Serif+4&family=Ubuntu:wght@300&family=Varela+Round&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* opacity: 0.7; */
+}
+
+/* Logo */
+#logo{
+    margin: 14px 39px;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo img{
+    margin: 4px 5px;
+    height: 51px;
+}
+
+.logoContent{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+
+/* navContent */
+#navCntn
+{
+    display: flex;
+}
+
+#navCntn li{
+    list-style: none;
+    font-size: 1.3rem;
+}
+
+#navCntn li a{
+    display: block;    /*because a is inline and we have to give it padding so we have to make its display block */
+    padding:3px 22px ;
+    text-decoration: none;
+    color: white;
+    border-radius: 34px;
+}
+
+#navCntn li a:hover{
+    color: red;
+    background-color: white;
+    font-weight: bold;
+}
+
+/* Features Part */
+
+#Home::before{
+    content: "";
+    /* background: url("Img/Smartwatch7.webp") no-repeat center center/cover; */
+    background-color: black;
+    position: absolute;
+    height: 70%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1.2;
+}
+
+#Home
+{
+    display: flex;
+    padding: 5px 75px;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#imgContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#imgContent .btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    border-radius: 23px;
+    background-color: white;
+    margin: 12px;
+    font-size: 1.2rem;
+}
+
+#imgContent .btn:hover{
+    color: red;
+    background-color: brown;
+    font-weight: bold;
+}
+.heading{
+    color: white;
+    font-weight: bold;
+    font-size: 2.4rem;
+}
+
+.para{
+    color: red;
+    font-size: 1.5rem;
+}
+
+/* Section photo */
+
+#SectionPht img{
+    height: 365px;
+}
+
+/* Features Setting */
+
+#features::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    height: 120%;
+    width: 100%;
+    z-index: -1;
+    /* opacity: 0.7; */
+}
+
+#features{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#FeatureHeading
+{
+    color: white;
+    font-size: 1.4rem;
+    padding: 16px 6px;
+}
+.container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box
+{
+    color: white;
+    background-color:black;
+    border: 2px solid white;
+    border-radius: 12px 12px;
+    width: 276px;
+    height: 230px;
+    margin: 35px 33px;
+    padding: 23px 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+     box-shadow: 10px 13px red;
+     /* box-shadow: -10px -13px red; */
+     transition: all 0.6s ease-in-out 0s ;
+}
+
+
+#Card-1:hover{
+    height: 290px;
+    width: 290px;
+    background-color: white;
+    color: black;
+    transform: rotate(360deg);
+}
+#Card-2:hover{
+    height: 290px;
+    width: 290px;
+    background-color: white;
+    color: black;
+    transform: rotate(360deg);
+}
+#Card-3:hover{
+    height: 290px;
+    width: 290px;
+    background-color: white;
+    color: black;
+    transform: rotate(360deg);
+}
+#Card-4:hover{
+    height: 290px;
+    width: 290px;
+    background-color: white;
+    color: black;
+    transform: rotate(360deg);
+}
+#Card-4:hover{
+    height: 290px;
+    width: 290px;
+    background-color: white;
+    color: black;
+    transform: rotate(360deg);
+}
+#Card-5:hover{
+    height: 290px;
+    width: 290px;
+    background-color: white;
+    color: black;
+    transform: rotate(360deg);
+}
+#Card-6:hover{
+    height: 290px;
+    width: 290px;
+    background-color: white;
+    color: black;
+    transform: rotate(360deg);
+}
+
+#photo
+{
+    padding: 9px 12px;
+}
+
+#photo img{
+    width: 210px;
+}
+
+
+/* Sevices Content */
+
+#SevicesSection::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    z-index: -1;
+    /* opacity: 1.2; */
+}
+
+#SevicesSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#MainServicesDiv{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    margin: 14px 8px;
+    padding: 6px 13px;
+}
+
+#ServicesHeading{
+    font-size: 1.5rem;
+    margin: 7px 6px;
+    padding: 3px 3px;
+}
+
+#ServicesHeading{
+    padding: 5px 4px;
+}
+
+#S{
+    display: flex;
+    margin: 10px 7px;
+    padding: 4px 15px;
+}
+
+#Services{
+    border: 2px solid black;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 43px;
+    box-sizing: border-box;
+    height: 200px;
+}
+
+#ServicesImg1
+{
+    padding: 12px 12px;
+}
+
+#ServicesImg1 img{
+    width: 170px;
+}
+
+#ServicesImg2
+{
+    padding: 12px 12px;
+}
+
+#ServicesImg2 img{
+    width: 170px;
+}
+
+#ServicesImg3
+{
+    padding: 12px 12px;
+}
+
+#ServicesImg3 img{
+    width: 150px;
+}
+
+#ServicesImg4
+{
+    padding: 12px 12px;
+}
+
+#ServicesImg4 img{
+    width: 170px;
+}
+
+#ServicesImg5
+{
+    padding: 12px 12px;
+}
+
+#ServicesImg5 img{
+    width: 140px;
+}
+
+/* Contact us section */
+
+#ContactSection::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 78%;
+    width: 100%;
+    z-index: -1;
+    /* opacity: 1.2; */
+}
+
+#ContactSection{
+    display: flex;
+    flex-direction: column;
+}
+
+.Contact_heading{
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#ContactBox{
+    border: 3px solid red;
+    border-radius: 15px 19px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 306px;
+    margin: 93px auto;
+}
+
+.ContactHeading{
+    margin: 7px auto;
+}
+
+.Cntct_box{
+    margin: 34px auto;
+}
+
+#MN{
+    /* background-color: brown; */
+    padding: 6px 7px;
+    margin: 12px 53px;
+}
+
+#formBox{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.form-grp
+{
+    display: flex;
+    flex-direction: column;
+}
+.form-grp label{
+    font-weight: bold;
+}
+
+.form-grp input{
+    border: 2px solid red;
+    border-radius: 9px 9px;
+    margin: 7px 2px;
+    padding: 12px 9px;
+    text-align: center;
+} 
+
+.form-grp textarea{
+    border: 2px solid red;
+    border-radius: 9px 9px;
+    margin: 7px 2px;
+    padding: 7px 7px;
+    text-align: center;
+}
+
+footer{
+    background-color: red;
+    color: white;
+    margin: 124px 0px 0px 0px;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    padding: 9px auto;
+}
+
